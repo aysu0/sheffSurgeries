@@ -32,8 +32,8 @@
 </content>
 
 <div class="svg" role="presentation">
-    <div class="grails-logo-container">
-        <asset:image src="grails-cupsonly-logo-white.svg" class="grails-logo"/>
+    <div class="">
+        <asset:image src="banner.jpg" class="grails-logo"/>
     </div>
 </div>
 

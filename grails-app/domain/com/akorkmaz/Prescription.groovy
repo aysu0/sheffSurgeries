@@ -20,9 +20,9 @@ class Prescription {
     	pharmacyName()
     	medicine()
     	daysSupply()
-	totalCost()
-	dateIssued()
-	patientPaying()
+		totalCost()
+		dateIssued()
+		patientPaying()
     }
     
     static hasOne = [doctor:Doctor, patient:Patient]

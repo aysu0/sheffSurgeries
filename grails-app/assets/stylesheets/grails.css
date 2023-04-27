@@ -41,7 +41,7 @@ pre {
 
 }
 .navbar-dark, .navbar-static-top {
-    background-color: #424649;
+    background-color: #4e8ead;
     border: 0px;
 }
 a.navbar-brand {
@@ -126,11 +126,6 @@ a.navbar-brand {
     margin: 0em 0;
 }
 
-#band {
-    /*grey =#808080*/
-    background: #2559a7  no-repeat 50% 30%;
-    height: 400px;
-}
 
 .svg #band {
     background-image: url(../img/grails-cupsonly-logo-white.svg);
