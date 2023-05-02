@@ -8,8 +8,8 @@ class Receptionist extends Worker {
 
 	
     static constraints = {
- 	receptionistUsername()
- 	receptionistPassword()
+ 	receptionistUsername size: 5..20
+ 	receptionistPassword size: 5..50
     }
     
 

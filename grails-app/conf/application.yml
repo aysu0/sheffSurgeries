@@ -119,11 +119,11 @@ environments:
     test:
         dataSource:
             dbCreate: update
-            url: 
+            url: jdbc:mariadb://localhost/sheffieldSurgeries_test
     production:
         dataSource:
             dbCreate: none
-            url: 
+            url: jdbc:mariadb://localhost/sheffieldSurgeries_production
             properties:
                 jmxEnabled: true
                 initialSize: 5
